@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1320px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.container-fluid{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+html body{
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+.col-12{
+    width: 100%;
+    padding: 15px;
+}
+
+.col-6{
+    width: 50%;
+    padding: 15px;
+}
+
+.col-4{
+    width: 33.33%;
+    padding: 15px;
+}
+
+.col-3{
+    width: 25%;
+    padding: 15px;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+ul li{
+    list-style: none;
+}
+.d-none{
+    display: none;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-content-space-between{
+    justify-content: space-between;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+/* header section starts */
+
+header topbar{
+    padding: 0 30px;
+} 
+
+header topbar .topbar-item ul li{
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+header topbar .icons ul li{
+    font-size: 15px;
+    padding: 12px;
+    transition: all .3s linear;
+}
+
+header topbar .icons ul li:hover{
+    color: white;
+    font-size: 16px;
+    outline: none;
+}
+
+header topbar .icons ul .fb:hover,
+header topbar .icons ul li:hover{
+    background-color: #5d82d1;
+}
+
+header topbar .icons ul .tw:hover,
+header topbar .icons ul .vi:hover{
+    background-color:  #6695f9;
+}
+
+header topbar .icons ul .pin:hover,
+header topbar .icons ul .yt:hover{
+    background-color: #c81212;
+}
+
+header topbar .icons ul .ball:hover{
+    background-color: #e83e8c;
+}
+
+header topbar .icons ul .rss:hover,
+header topbar .icons ul .gp:hover{
+    background-color: #fd7e14;
+}
+
+header nav{
+    padding: 1rem 14rem;
+}
+
+header nav .logo{
+    font-size: 36px;
+    color: #1f1f1f;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+header nav .nav-items ul li{
+    padding: 10px 12px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+      transition: all .3s linear;
+}
+
+header nav .nav-items ul li:hover{
+    color: #5d82d1;
+}
+    
+/* header section ends */
+
+/* hero section starts */
+
+.hero{
+    background-color:  #F7F9FB;
+}
+
+.hero .hero-img{
+    width: 50%;
+}
+
+.hero .hero-text{
+    text-align: center;
+    align-content: center;
+    font-family: 'Raleway';
+    color: rgb(51, 51, 51);
+}
+
+.hero .hero-text h4{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.hero .hero-text h1{
+    font-size: 120px;
+    font-weight: 600;
+}
+
+.hero .hero-text h6{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.hero .hero-text .btn{
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    padding: 10px 12px;
+    font-size: 12px;
+    border-radius: 5px;
+    color: black;
+    font-weight: 600;
+    transition: all .3s linear;
+}
+
+.hero .hero-text .btn:hover{
+    background-color: black;
+    color: white;
+}
+
+/* hero section ends */
+
+/* about section starts */
+
+.about{
+    padding: 3rem 0;
+}
+
+.about .card-1{
+    background-image: url('../images/about-bg-img-2.jpg');
+    display: block;
+    height: 50vh;
+    background-repeat: no-repeat;
+    padding: 3rem;
+    border: 7px solid rgb(187, 185, 185)
+}
+
+.about .card-2{
+    background-image: url('../images/about-bg-img-1');
+    display: block;
+    height: 50vh;
+    background-repeat: no-repeat;
+    padding: 3rem;
+    border: 7px solid rgb(187, 185, 185)
+}
+
+.about .card-1 .card-text{
+    text-align: right;
+}
+
+.about .card-2 .card-text{
+    text-align: left;
+}
+
+.about .card-1 .card-text h1,
+.about .card-2 .card-text h1{
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.about .card-1 .card-text p,
+.about .card-2 .card-text p{
+    color: gray;
+    line-height: 1.5;
+}
+
+.about .card-1 .card-text a,
+.about .card-2 .card-text a{
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    padding: 10px 12px;
+    font-size: 12px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    transition: all .3s linear;
+}
+
+.about .card-1 .card-text a:hover,
+.about .card-2 .card-text a:hover{
+    background-color: rgb(52, 47, 47);
+    outline: none;
+}
+
+/* about section ends */
+
+/* info section starts */
+
+.info {
+    padding: 3rem 0;
+    background-color:  #F7F9FB;
+}
+
+.info .card .icon{
+    margin-right: 15px;
+    font-size: 32px;
+}
+
+.info .card .text h3{
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.info .card .text p{
+    margin-top: 3px;
+    font-size: 14px;
+    color: gray;
+    line-height: 1.5;
+}
+
+/* info section ends */
+
+/* product section starts */
+
+.product{
+    padding-bottom: 5rem;
+}
+
+.product h1{
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    font-size: 34px;
+}
+
+.card{
+    width:300px;
+    margin-top: 5px;
+    padding: 0 20px;
+}
+
+.card p{
+    margin-top: 5px;
+    font-size: 14px;
+    color: gray;
+}
+
+.card .text {
+    margin: 5px 0;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all .3s linear;
+}
+
+.card .review{
+    transition: all .3s linear;
+}
+
+.card .review .star{
+    color: #FFC300;
+}
+
+.card .text h4:hover,
+.card .review p:hover{
+    color: #5a86e3;
+}
+
+/* product section ends */
+
+
